@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="header">
+		<button class="tableros" ><i class = "fa fa-table" aria-hidden="true">Tableros</i></button>
+		<input type="search" class="search">
+		<img src="img/header-logo-blue.svg" class="logo">
+		<button class="b1"><i class = "fa fa-plus" aria-hidden="true"></i></button>
+		<button class="b2"><i class = "fa fa-info" aria-hidden="true"></i></button>
+		<button class="b3"><i class = "fa fa-bell" aria-hidden="true"></i></button>
+		<img class="b4" id = "foto" src="img/iconofoto.jpg" alt="">
+	</div>
+
+	<div class="cuadroLista" id="cuadroLista">
+		<h3 id="tituloLista">Nueva lista</h3>
+		<!--<div class="tarea">
+			Tarea
+		</div>-->
+
+		
+		<textarea id="textoTarea"></textarea>
+		<input type="button" class="boton" onclick="guardarTarea()" value="Añadir"></div>
+
+	<div class="cuadroAniadir" id="cuadroAniadir">
+		<input type="text" id="textoLista" placeholder="Añadir una lista">
+		<input type="button" class="boton2" onclick="aniadir()" value="Guardar">
+	</div>
+	<div class="aniadirblue" id="aniadirblue">
+		<input type="button" value = "Añadir lista" class="button" onclick="aparecerForm()">
+		
+	</div>
+	<script src="https://use.fontawesome.com/4cfd316c7c.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

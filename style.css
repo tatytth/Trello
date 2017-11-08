@@ -1,0 +1,121 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background: #1D8DC2;
+}
+
+.header{
+	height: 80px;
+	background: white;
+}
+.cuadroLista{
+	background: yellow;
+	width: 250px;
+	padding: 5px;
+	color: black;
+	border: 3px solid #E5E6E9;
+	background: #DBDCDF;
+	float: left;
+	display: none;
+	margin-top: 10px;
+}
+
+
+#tituloLista{
+	margin: 0px;
+}
+
+.tarea{
+		border: 3px solid #E5E6E9;
+		background: #EEF2F5;
+		padding: 3px;
+		margin-top: 5px;
+
+}
+#textoTarea{
+	margin-top: 10px;
+	width: 240px;
+}
+
+.boton{
+	width: 120px;
+	color: white;
+	background: #63AE4C;
+	border: 0px;
+	margin-top: 10px;
+}
+
+.cuadroAniadir{
+	background: red;
+	width: 250px;
+	padding: 5px;
+	color: black;
+	border: 3px solid #E5E6E9;
+	background: #DBDCDF;
+	float: left;
+	margin-left: 20px;
+	display: none;
+	margin-top: 10px;
+}
+
+#textoLista{
+	margin-top: 10px;
+	width: 240px;
+}
+
+.boton2{
+	width: 120px;
+	color: white;
+	background: #63AE4C;
+	border: 0px;
+	margin-top: 10px;
+}
+
+.button{
+	background: #157CAC;
+	border: 0px;
+	color: white;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+/*CABECERA*/
+
+.tableros{
+	color:black;
+	background-repeat: no-repeat;
+	padding: 5px;
+	height: 32px;
+	vertical-align: middle;
+	font-family: Arial;
+	margin-left: 10px;
+}
+.logo{
+	width: 80px;
+	height:80px;
+	color:white;
+	vertical-align: middle;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.b1, .b2, .b3, .b4{
+	vertical-align: middle;
+	width: 32px;
+	height: 32px;
+}
+
+
+.fa-plus, .f-info, .fa-bell {
+	color: black;
+	font-size: 100px;
+	cursor: pointer;
+}
+
+#foto{
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+}
